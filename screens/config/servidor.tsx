@@ -1,0 +1,1 @@
+export const ipserver = "http://10.26.45.23:8082/api";
