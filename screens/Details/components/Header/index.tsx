@@ -1,5 +1,5 @@
 import { AntDesign } from "@expo/vector-icons";
-import { Text,Image, View, TextInput } from "react-native";
+import { Text,Image, View } from "react-native";
 
 export default function Header(){
     return(
@@ -9,17 +9,7 @@ export default function Header(){
             <Text style={{color:"black", fontSize:30, marginTop:20,textAlign:"center", marginLeft:"10%", marginRight:"20%"}}>RalphLauren</Text>
             <AntDesign name="shoppingcart" size={30} color={"black"}  style={{marginTop:25}}/>
             </View>
-            <TextInput placeholder="Buscar produtos, categorias..." keyboardType="web-search" style={{
-            backgroundColor:"white",
-            borderRadius:25,
-            padding:10,
-            width:"90%",
-            marginLeft: "auto",
-            marginRight:"auto",
-            marginTop:20,
-
-
-            }}/>
+            
         </View>
 
     )
